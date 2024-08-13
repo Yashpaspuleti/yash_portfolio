@@ -66,9 +66,6 @@ function Hero() {
           <h2 ref={typedElement}></h2>
         </div>
         <span>
-          <a href="https://twitter.com/YashPasupuleti" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
           <a
             href="https://www.linkedin.com/in/yashwanth-kumar-pasupuleti-228974170/"
             target="_blank"
@@ -77,6 +74,9 @@ function Hero() {
           </a>
           <a href="https://github.com/Yashpaspuleti" target="_blank">
             <img src={githubIcon} alt="Github icon" />
+          </a>
+          <a href="https://twitter.com/YashPasupuleti" target="_blank">
+            <img src={twitterIcon} alt="Twitter icon" />
           </a>
         </span>
         <p className={styles.description}>
