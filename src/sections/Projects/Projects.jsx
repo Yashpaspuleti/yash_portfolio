@@ -2,6 +2,7 @@ import styles from "./ProjectsStyles.module.css";
 import radient from "../../assets/Radient_charms.png";
 import weatherApp from "../../assets/weather_app.png";
 import ProjectCard from "../../common/ProjectCard";
+import Brainwave from "../../assets/Brainwave AI technology.png";
 
 function Projects() {
   return (
@@ -12,13 +13,19 @@ function Projects() {
           src={radient}
           link="https://github.com/Yashpaspuleti/radiant_charm"
           h3="Radient Charms"
-          p="Jewellery Site"
+          p="Tailwind & JavaScript"
         />
         <ProjectCard
           src={weatherApp}
           link="https://github.com/Yashpaspuleti/Weather_app"
           h3="Weather App"
-          p="Weather App using JavaScript"
+          p="WeatherAPI & JavaScript"
+        />
+        <ProjectCard
+          src={Brainwave}
+          link="https://github.com/Yashpaspuleti/Brainwave"
+          h3="Brainwave AI"
+          p="Tailwind & React.js"
         />
       </div>
     </section>

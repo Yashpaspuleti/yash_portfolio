@@ -25,7 +25,7 @@ function Hero() {
   useEffect(() => {
     const options = {
       strings: [
-        "Frontend Developer",
+        "Full-Stack Developer",
         "Web Developer",
         "React Developer",
         "Photographer",
@@ -49,7 +49,7 @@ function Hero() {
         <img
           className={styles.hero}
           src={heroImg}
-          alt="Profile picture of Yash Pasupuleti"
+          alt="Profile picture of Yash"
         />
         <img
           className={styles.colorMode}
