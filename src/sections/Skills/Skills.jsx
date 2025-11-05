@@ -16,13 +16,17 @@ const Skills = () => {
         <SkillList src={checkMarkIcon} skill="CSS" />
         <SkillList src={checkMarkIcon} skill="JavaScript" />
         <SkillList src={checkMarkIcon} skill="SQL" />
+        <SkillList src={checkMarkIcon} skill="AWS" />
+        <SkillList src={checkMarkIcon} skill="Docker" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="React" />
         <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
         <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Java" />
+        <SkillList src={checkMarkIcon} skill="Python" />
+        <SkillList src={checkMarkIcon} skill="Jenkins" />
+        <SkillList src={checkMarkIcon} skill="Terraform" />
       </div>
       <hr />
     </section>
