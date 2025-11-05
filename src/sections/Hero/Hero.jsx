@@ -8,7 +8,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
-import CV from "../../assets/Yashwanth Pasupuleti.pdf";
+import CV from "../../assets/Yashwanth_P_resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 import Typed from "typed.js";
 import React, { useEffect, useRef } from "react";
@@ -80,8 +80,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          A master's graduate in Computer Science with a passion for creating
-          user-friendly and visually appealing web applications.
+          Full-Stack Developer with one year of professional experience, backed by a Master's in Computer Science. I specialize in building robust, user-friendly, and visually appealing web applications.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
